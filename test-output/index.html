@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Learn\MindTree\SDET JAVA\Comprehensive Hybrid\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 1 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC003_VerfiyFanPagesWorking" class="method navigator-link" hash-for-method="verifyFanPages">verifyFanPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC008_DownloadAndrodApp" class="method navigator-link" hash-for-method="downloadAndroidApp">downloadAndroidApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC010_VerfyEmiCalculator" class="method navigator-link" hash-for-method="emiCalculator(1000, 50, 20, 42, 1,000, 9,080, 10,080)">emiCalculator(1000, 50, 20, 42, 1,000, 9,080, 10,080)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC005_FooterPGHostelSearch" class="method navigator-link" hash-for-method="footerPGHostels(Bavdhan)">footerPGHostels(Bavdhan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC005_FooterPGHostelSearch" class="method navigator-link" hash-for-method="footerPGHostels(Powai)">footerPGHostels(Powai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC005_FooterPGHostelSearch" class="method navigator-link" hash-for-method="footerPGHostels(Thane West)">footerPGHostels(Thane West)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC007_BuildersVerifyCity" class="method navigator-link" hash-for-method="getBuilderProperties(Pune)">getBuilderProperties(Pune)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC007_BuildersVerifyCity" class="method navigator-link" hash-for-method="getBuilderProperties(Gurgaon)">getBuilderProperties(Gurgaon)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC006_LoginAndVerifyDetails" class="method navigator-link" hash-for-method="loginAndVerifyDetails(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247)">loginAndVerifyDetails(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC001_Login" class="method navigator-link" hash-for-method="loginTest(9390919247, nand3799)">loginTest(9390919247, nand3799)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC001_Login" class="method navigator-link" hash-for-method="loginTest(9390919247, nand3799)">loginTest(9390919247, nand3799)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC001_Login" class="method navigator-link" hash-for-method="loginTest(9390919247, nand3799)">loginTest(9390919247, nand3799)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC002_Login_with_Invalid_data" class="method navigator-link" hash-for-method="loginTest(9390919247, 124541)">loginTest(9390919247, 124541)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC002_Login_with_Invalid_data" class="method navigator-link" hash-for-method="loginTest(9160167494, naadf)">loginTest(9160167494, naadf)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC002_Login_with_Invalid_data" class="method navigator-link" hash-for-method="loginTest(9390919247, nadfa)">loginTest(9390919247, nadfa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC004_SearchCommertialProperties" class="method navigator-link" hash-for-method="searchCommertialProperties(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India)">searchCommertialProperties(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC004_SearchCommertialProperties" class="method navigator-link" hash-for-method="searchCommertialProperties(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra)">searchCommertialProperties(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC004_SearchCommertialProperties" class="method navigator-link" hash-for-method="searchCommertialProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India)">searchCommertialProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="runner.TC009SearchRentProperties" class="method navigator-link" hash-for-method="searchRentProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India,...)">searchRentProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">runner.TC003_VerfiyFanPagesWorking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFanPages">
+                  </a> <!-- verifyFanPages -->
+                  <span class="method-name">verifyFanPages</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at runner.TC003_VerfiyFanPagesWorking.verifyFanPages(TC003_VerfiyFanPagesWorking.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC002_Login_with_Invalid_data</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9390919247, 124541)">
+                  </a> <!-- loginTest(9390919247, 124541) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9390919247, 124541)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9160167494, naadf)">
+                  </a> <!-- loginTest(9160167494, naadf) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9160167494, naadf)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9390919247, nadfa)">
+                  </a> <!-- loginTest(9390919247, nadfa) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9390919247, nadfa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC006_LoginAndVerifyDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAndVerifyDetails(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247)">
+                  </a> <!-- loginAndVerifyDetails(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247) -->
+                  <span class="method-name">loginAndVerifyDetails</span>
+                  <span class="parameters">(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC004_SearchCommertialProperties</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCommertialProperties(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India)">
+                  </a> <!-- searchCommertialProperties(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India) -->
+                  <span class="method-name">searchCommertialProperties</span>
+                  <span class="parameters">(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCommertialProperties(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra)">
+                  </a> <!-- searchCommertialProperties(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra) -->
+                  <span class="method-name">searchCommertialProperties</span>
+                  <span class="parameters">(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCommertialProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India)">
+                  </a> <!-- searchCommertialProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India) -->
+                  <span class="method-name">searchCommertialProperties</span>
+                  <span class="parameters">(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC009SearchRentProperties</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchRentProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India,...)">
+                  </a> <!-- searchRentProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India,...) -->
+                  <span class="method-name">searchRentProperties</span>
+                  <span class="parameters">(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India, 36)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC007_BuildersVerifyCity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBuilderProperties(Pune)">
+                  </a> <!-- getBuilderProperties(Pune) -->
+                  <span class="method-name">getBuilderProperties</span>
+                  <span class="parameters">(Pune)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBuilderProperties(Gurgaon)">
+                  </a> <!-- getBuilderProperties(Gurgaon) -->
+                  <span class="method-name">getBuilderProperties</span>
+                  <span class="parameters">(Gurgaon)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC005_FooterPGHostelSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerPGHostels(Bavdhan)">
+                  </a> <!-- footerPGHostels(Bavdhan) -->
+                  <span class="method-name">footerPGHostels</span>
+                  <span class="parameters">(Bavdhan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerPGHostels(Powai)">
+                  </a> <!-- footerPGHostels(Powai) -->
+                  <span class="method-name">footerPGHostels</span>
+                  <span class="parameters">(Powai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="footerPGHostels(Thane West)">
+                  </a> <!-- footerPGHostels(Thane West) -->
+                  <span class="method-name">footerPGHostels</span>
+                  <span class="parameters">(Thane West)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC010_VerfyEmiCalculator</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emiCalculator(1000, 50, 20, 42, 1,000, 9,080, 10,080)">
+                  </a> <!-- emiCalculator(1000, 50, 20, 42, 1,000, 9,080, 10,080) -->
+                  <span class="method-name">emiCalculator</span>
+                  <span class="parameters">(1000, 50, 20, 42, 1,000, 9,080, 10,080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC008_DownloadAndrodApp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadAndroidApp">
+                  </a> <!-- downloadAndroidApp -->
+                  <span class="method-name">downloadAndroidApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">runner.TC001_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9390919247, nand3799)">
+                  </a> <!-- loginTest(9390919247, nand3799) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9390919247, nand3799)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9390919247, nand3799)">
+                  </a> <!-- loginTest(9390919247, nand3799) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9390919247, nand3799)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(9390919247, nand3799)">
+                  </a> <!-- loginTest(9390919247, nand3799) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(9390919247, nand3799)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Learn\MindTree\SDET JAVA\Comprehensive Hybrid\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC001_nobroker_login&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC001_Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login with invalid data&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC002_nobroker_login_with_Invalid_data&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC002_Login_with_Invalid_data&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login with invalid data --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verifying fan pages&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC003_nobroker_fan_page_verification&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC003_VerfiyFanPagesWorking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verifying fan pages --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search commertial properties&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC004_nobroker_verifying_search_commertial&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC004_SearchCommertialProperties&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search commertial properties --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Footer Pg hostels&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC005_verifying_footer_contains_PG_at_selected_city&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC005_FooterPGHostelSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Footer Pg hostels --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Login Details&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC006_NOBROKER_Login_and_verifying_details&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC006_LoginAndVerifyDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Login Details --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify Builder Details&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC007_NOBROKER_Buildrer_City_Verifying&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC007_BuildersVerifyCity&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Builder Details --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Android App download verification&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC008_NOBROKER_androidAppDownload_verify&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC008_DownloadAndrodApp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Android App download verification --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Rent Properties&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC009_nobroker_verifying_search_rentDispaly number&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC009SearchRentProperties&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Rent Properties --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Verify emi calculator&quot;&gt;
+    &lt;parameter name=&quot;TestID&quot; value=&quot;TC010_nobroker_verifying_emi_calculator&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;runner.TC010_VerfyEmiCalculator&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify emi calculator --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login with invalid data (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verifying fan pages (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search commertial properties (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Footer Pg hostels (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Login Details (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Builder Details (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Android App download verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Rent Properties (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify emi calculator (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyFanPages')
+data.setCell(0, 2, 'runner.TC003_VerfiyFanPagesWorking')
+data.setCell(0, 3, 48023);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginAndVerifyDetails')
+data.setCell(1, 2, 'runner.TC006_LoginAndVerifyDetails')
+data.setCell(1, 3, 36674);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getBuilderProperties')
+data.setCell(2, 2, 'runner.TC007_BuildersVerifyCity')
+data.setCell(2, 3, 34255);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getBuilderProperties')
+data.setCell(3, 2, 'runner.TC007_BuildersVerifyCity')
+data.setCell(3, 3, 33977);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'runner.TC002_Login_with_Invalid_data')
+data.setCell(4, 3, 14961);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'runner.TC002_Login_with_Invalid_data')
+data.setCell(5, 3, 14786);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'runner.TC002_Login_with_Invalid_data')
+data.setCell(6, 3, 13677);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'runner.TC001_Login')
+data.setCell(7, 3, 6971);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'runner.TC001_Login')
+data.setCell(8, 3, 5648);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchCommertialProperties')
+data.setCell(9, 2, 'runner.TC004_SearchCommertialProperties')
+data.setCell(9, 3, 5584);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginTest')
+data.setCell(10, 2, 'runner.TC001_Login')
+data.setCell(10, 3, 5451);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'downloadAndroidApp')
+data.setCell(11, 2, 'runner.TC008_DownloadAndrodApp')
+data.setCell(11, 3, 5125);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchCommertialProperties')
+data.setCell(12, 2, 'runner.TC004_SearchCommertialProperties')
+data.setCell(12, 3, 5120);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchCommertialProperties')
+data.setCell(13, 2, 'runner.TC004_SearchCommertialProperties')
+data.setCell(13, 3, 4895);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchRentProperties')
+data.setCell(14, 2, 'runner.TC009SearchRentProperties')
+data.setCell(14, 3, 4727);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'footerPGHostels')
+data.setCell(15, 2, 'runner.TC005_FooterPGHostelSearch')
+data.setCell(15, 3, 4668);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'footerPGHostels')
+data.setCell(16, 2, 'runner.TC005_FooterPGHostelSearch')
+data.setCell(16, 3, 4423);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'footerPGHostels')
+data.setCell(17, 2, 'runner.TC005_FooterPGHostelSearch')
+data.setCell(17, 3, 4264);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'emiCalculator')
+data.setCell(18, 2, 'runner.TC010_VerfyEmiCalculator')
+data.setCell(18, 3, 3909);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC010_VerfyEmiCalculator</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extendReportSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC001_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">318 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">1417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9390919247, nand3799)</span>
+                <span class="method-start">3207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">8660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">8909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9390919247, nand3799)</span>
+                <span class="method-start">9813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">16786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">17041 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9390919247, nand3799)</span>
+                <span class="method-start">17899 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">23548 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC002_Login_with_Invalid_data</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">23820 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">23883 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9390919247, 124541)</span>
+                <span class="method-start">24879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">39666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">40099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9390919247, nadfa)</span>
+                <span class="method-start">40957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">55919 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">56173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(9160167494, naadf)</span>
+                <span class="method-start">57104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">70782 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC003_VerfiyFanPagesWorking</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">71160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">71160 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFanPages</span>
+                <span class="method-start">72049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">120074 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC004_SearchCommertialProperties</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">120631 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">120678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCommertialProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India)</span>
+                <span class="method-start">121489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">126610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">126845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCommertialProperties(Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra)</span>
+                <span class="method-start">127734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">133319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">133567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchCommertialProperties(TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India)</span>
+                <span class="method-start">134411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">139307 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC005_FooterPGHostelSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">139524 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">139589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">footerPGHostels(Powai)</span>
+                <span class="method-start">140455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">144721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">144972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">footerPGHostels(Thane West)</span>
+                <span class="method-start">145830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">150254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">150473 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">footerPGHostels(Bavdhan)</span>
+                <span class="method-start">151323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">155991 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC006_LoginAndVerifyDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">156177 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">156256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginAndVerifyDetails(9390919247, nand3799, NANDU KISHORE, nandukishore.bangari@gmail.com, 9390919247)</span>
+                <span class="method-start">157170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">193845 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC007_BuildersVerifyCity</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">194276 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">194322 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBuilderProperties(Pune)</span>
+                <span class="method-start">195217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">229473 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">229710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBuilderProperties(Gurgaon)</span>
+                <span class="method-start">230573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">264551 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC008_DownloadAndrodApp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">264790 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">264790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadAndroidApp</span>
+                <span class="method-start">265653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">270779 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC009SearchRentProperties</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">271026 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">271074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchRentProperties(Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India,...)</span>
+                <span class="method-start">271980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">276708 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">runner.TC010_VerfyEmiCalculator</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driverSetUp</span>
+                <span class="method-start">276905 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">required</span>
+                <span class="method-start">276973 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emiCalculator(1000, 50, 20, 42, 1,000, 9,080, 10,080)</span>
+                <span class="method-start">277891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverExit</span>
+                <span class="method-start">281802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">flush</span>
+                <span class="method-start">281994 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

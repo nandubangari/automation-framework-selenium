@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-26T22:21:05 IST" name="Suite" finished-at="2022-03-26T22:25:47 IST" duration-ms="281690">
+    <groups>
+    </groups>
+    <test started-at="2022-03-26T22:21:05 IST" name="Login" finished-at="2022-03-26T22:21:28 IST" duration-ms="23492">
+      <class name="runner.TC001_Login">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:05 IST" name="driverSetUp" finished-at="2022-03-26T22:21:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:06 IST" name="required" finished-at="2022-03-26T22:21:08 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:08 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:21:13 IST" duration-ms="5451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nand3799]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:13 IST" name="driverExit" finished-at="2022-03-26T22:21:13 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:13 IST" name="required" finished-at="2022-03-26T22:21:14 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:14 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:21:21 IST" duration-ms="6971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nand3799]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:21 IST" name="driverExit" finished-at="2022-03-26T22:21:22 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:22 IST" name="required" finished-at="2022-03-26T22:21:22 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:22 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:21:28 IST" duration-ms="5648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nand3799]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC001_Login@55183b20]" started-at="2022-03-26T22:21:28 IST" name="driverExit" finished-at="2022-03-26T22:21:28 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC001_Login -->
+    </test> <!-- Login -->
+    <test started-at="2022-03-26T22:21:28 IST" name="Login with invalid data" finished-at="2022-03-26T22:22:16 IST" duration-ms="47340">
+      <class name="runner.TC002_Login_with_Invalid_data">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:28 IST" name="driverSetUp" finished-at="2022-03-26T22:21:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:28 IST" name="required" finished-at="2022-03-26T22:21:29 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:29 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:21:44 IST" duration-ms="14786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[124541]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:44 IST" name="driverExit" finished-at="2022-03-26T22:21:45 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:45 IST" name="required" finished-at="2022-03-26T22:21:46 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:21:46 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:22:00 IST" duration-ms="14961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nadfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:22:00 IST" name="driverExit" finished-at="2022-03-26T22:22:01 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:22:01 IST" name="required" finished-at="2022-03-26T22:22:02 IST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:22:02 IST" name="loginTest" data-provider="logInDataProvide" finished-at="2022-03-26T22:22:15 IST" duration-ms="13677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9160167494]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naadf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC002_Login_with_Invalid_data@5fe94a96]" started-at="2022-03-26T22:22:15 IST" name="driverExit" finished-at="2022-03-26T22:22:16 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC002_Login_with_Invalid_data -->
+    </test> <!-- Login with invalid data -->
+    <test started-at="2022-03-26T22:22:16 IST" name="Verifying fan pages" finished-at="2022-03-26T22:23:05 IST" duration-ms="49471">
+      <class name="runner.TC003_VerfiyFanPagesWorking">
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC003_VerfiyFanPagesWorking@5e0e82ae]" started-at="2022-03-26T22:22:16 IST" name="required" finished-at="2022-03-26T22:22:17 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC003_VerfiyFanPagesWorking@5e0e82ae]" started-at="2022-03-26T22:22:16 IST" name="driverSetUp" finished-at="2022-03-26T22:22:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="verifyFanPages()[pri:0, instance:runner.TC003_VerfiyFanPagesWorking@5e0e82ae]" started-at="2022-03-26T22:22:17 IST" name="verifyFanPages" finished-at="2022-03-26T22:23:05 IST" duration-ms="48023" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at runner.TC003_VerfiyFanPagesWorking.verifyFanPages(TC003_VerfiyFanPagesWorking.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFanPages -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC003_VerfiyFanPagesWorking@5e0e82ae]" started-at="2022-03-26T22:23:05 IST" name="driverExit" finished-at="2022-03-26T22:23:05 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC003_VerfiyFanPagesWorking -->
+    </test> <!-- Verifying fan pages -->
+    <test started-at="2022-03-26T22:23:05 IST" name="Search commertial properties" finished-at="2022-03-26T22:23:24 IST" duration-ms="18893">
+      <class name="runner.TC004_SearchCommertialProperties">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:05 IST" name="driverSetUp" finished-at="2022-03-26T22:23:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:05 IST" name="required" finished-at="2022-03-26T22:23:06 IST" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="searchCommertialProperties(java.lang.String)[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:06 IST" name="searchCommertialProperties" data-provider="commertialDataProvide" finished-at="2022-03-26T22:23:11 IST" duration-ms="5120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCommertialProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:11 IST" name="driverExit" finished-at="2022-03-26T22:23:11 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:11 IST" name="required" finished-at="2022-03-26T22:23:12 IST" duration-ms="889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="searchCommertialProperties(java.lang.String)[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:12 IST" name="searchCommertialProperties" data-provider="commertialDataProvide" finished-at="2022-03-26T22:23:18 IST" duration-ms="5584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mahavir Nagar Kandivali West, Shravan Nagar, Kandivali West, Mumbai, Maharashtra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCommertialProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:18 IST" name="driverExit" finished-at="2022-03-26T22:23:18 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:18 IST" name="required" finished-at="2022-03-26T22:23:19 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="searchCommertialProperties(java.lang.String)[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:19 IST" name="searchCommertialProperties" data-provider="commertialDataProvide" finished-at="2022-03-26T22:23:24 IST" duration-ms="4895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TAJ ESTATE AGENCY, Virar East, Virar, Maharashtra, India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCommertialProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC004_SearchCommertialProperties@28701274]" started-at="2022-03-26T22:23:24 IST" name="driverExit" finished-at="2022-03-26T22:23:24 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC004_SearchCommertialProperties -->
+    </test> <!-- Search commertial properties -->
+    <test started-at="2022-03-26T22:23:24 IST" name="Search Footer Pg hostels" finished-at="2022-03-26T22:23:41 IST" duration-ms="16653">
+      <class name="runner.TC005_FooterPGHostelSearch">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:24 IST" name="driverSetUp" finished-at="2022-03-26T22:23:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:24 IST" name="required" finished-at="2022-03-26T22:23:25 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="footerPGHostels(java.lang.String)[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:25 IST" name="footerPGHostels" data-provider="pgCityProvider" finished-at="2022-03-26T22:23:29 IST" duration-ms="4264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Powai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerPGHostels -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:29 IST" name="driverExit" finished-at="2022-03-26T22:23:30 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:30 IST" name="required" finished-at="2022-03-26T22:23:30 IST" duration-ms="858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="footerPGHostels(java.lang.String)[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:30 IST" name="footerPGHostels" data-provider="pgCityProvider" finished-at="2022-03-26T22:23:35 IST" duration-ms="4423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thane West]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerPGHostels -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:35 IST" name="driverExit" finished-at="2022-03-26T22:23:35 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:35 IST" name="required" finished-at="2022-03-26T22:23:36 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="footerPGHostels(java.lang.String)[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:36 IST" name="footerPGHostels" data-provider="pgCityProvider" finished-at="2022-03-26T22:23:41 IST" duration-ms="4668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bavdhan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerPGHostels -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC005_FooterPGHostelSearch@5b7a5baa]" started-at="2022-03-26T22:23:41 IST" name="driverExit" finished-at="2022-03-26T22:23:41 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC005_FooterPGHostelSearch -->
+    </test> <!-- Search Footer Pg hostels -->
+    <test started-at="2022-03-26T22:23:41 IST" name="Verify Login Details" finished-at="2022-03-26T22:24:19 IST" duration-ms="38099">
+      <class name="runner.TC006_LoginAndVerifyDetails">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC006_LoginAndVerifyDetails@6c6cb480]" started-at="2022-03-26T22:23:41 IST" name="driverSetUp" finished-at="2022-03-26T22:23:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC006_LoginAndVerifyDetails@6c6cb480]" started-at="2022-03-26T22:23:41 IST" name="required" finished-at="2022-03-26T22:23:42 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="loginAndVerifyDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.TC006_LoginAndVerifyDetails@6c6cb480]" started-at="2022-03-26T22:23:42 IST" name="loginAndVerifyDetails" data-provider="loginVerifyDetails" finished-at="2022-03-26T22:24:18 IST" duration-ms="36674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nand3799]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NANDU KISHORE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nandukishore.bangari@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9390919247]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAndVerifyDetails -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC006_LoginAndVerifyDetails@6c6cb480]" started-at="2022-03-26T22:24:18 IST" name="driverExit" finished-at="2022-03-26T22:24:19 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC006_LoginAndVerifyDetails -->
+    </test> <!-- Verify Login Details -->
+    <test started-at="2022-03-26T22:24:19 IST" name="Verify Builder Details" finished-at="2022-03-26T22:25:29 IST" duration-ms="70514">
+      <class name="runner.TC007_BuildersVerifyCity">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:19 IST" name="driverSetUp" finished-at="2022-03-26T22:24:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:19 IST" name="required" finished-at="2022-03-26T22:24:20 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="getBuilderProperties(java.lang.String)[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:20 IST" name="getBuilderProperties" data-provider="cityData" finished-at="2022-03-26T22:24:54 IST" duration-ms="34255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBuilderProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:54 IST" name="driverExit" finished-at="2022-03-26T22:24:54 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:54 IST" name="required" finished-at="2022-03-26T22:24:55 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="getBuilderProperties(java.lang.String)[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:24:55 IST" name="getBuilderProperties" data-provider="cityData" finished-at="2022-03-26T22:25:29 IST" duration-ms="33977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gurgaon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBuilderProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC007_BuildersVerifyCity@45752059]" started-at="2022-03-26T22:25:29 IST" name="driverExit" finished-at="2022-03-26T22:25:29 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC007_BuildersVerifyCity -->
+    </test> <!-- Verify Builder Details -->
+    <test started-at="2022-03-26T22:25:29 IST" name="Android App download verification" finished-at="2022-03-26T22:25:36 IST" duration-ms="6236">
+      <class name="runner.TC008_DownloadAndrodApp">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC008_DownloadAndrodApp@6025e1b6]" started-at="2022-03-26T22:25:29 IST" name="driverSetUp" finished-at="2022-03-26T22:25:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC008_DownloadAndrodApp@6025e1b6]" started-at="2022-03-26T22:25:29 IST" name="required" finished-at="2022-03-26T22:25:30 IST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="downloadAndroidApp()[pri:0, instance:runner.TC008_DownloadAndrodApp@6025e1b6]" started-at="2022-03-26T22:25:30 IST" name="downloadAndroidApp" finished-at="2022-03-26T22:25:35 IST" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadAndroidApp -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC008_DownloadAndrodApp@6025e1b6]" started-at="2022-03-26T22:25:35 IST" name="driverExit" finished-at="2022-03-26T22:25:36 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC008_DownloadAndrodApp -->
+    </test> <!-- Android App download verification -->
+    <test started-at="2022-03-26T22:25:36 IST" name="Search Rent Properties" finished-at="2022-03-26T22:25:41 IST" duration-ms="5873">
+      <class name="runner.TC009SearchRentProperties">
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC009SearchRentProperties@4c12331b]" started-at="2022-03-26T22:25:36 IST" name="driverSetUp" finished-at="2022-03-26T22:25:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC009SearchRentProperties@4c12331b]" started-at="2022-03-26T22:25:36 IST" name="required" finished-at="2022-03-26T22:25:37 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="searchRentProperties(java.lang.String,java.lang.String)[pri:0, instance:runner.TC009SearchRentProperties@4c12331b]" started-at="2022-03-26T22:25:37 IST" name="searchRentProperties" data-provider="commertialDataProvide" finished-at="2022-03-26T22:25:41 IST" duration-ms="4727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Taj Lands End, Mumbai, Byramji Jeejeebhoy Road, Mount Mary, Bandra West, Mumbai, Maharashtra, India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRentProperties -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC009SearchRentProperties@4c12331b]" started-at="2022-03-26T22:25:41 IST" name="driverExit" finished-at="2022-03-26T22:25:41 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+      </class> <!-- runner.TC009SearchRentProperties -->
+    </test> <!-- Search Rent Properties -->
+    <test started-at="2022-03-26T22:25:41 IST" name="Verify emi calculator" finished-at="2022-03-26T22:25:47 IST" duration-ms="5084">
+      <class name="runner.TC010_VerfyEmiCalculator">
+        <test-method is-config="true" signature="extendReportSetup()[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:21:05 IST" name="extendReportSetup" finished-at="2022-03-26T22:21:05 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendReportSetup -->
+        <test-method is-config="true" signature="driverSetUp()[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:25:41 IST" name="driverSetUp" finished-at="2022-03-26T22:25:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method is-config="true" signature="required()[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:25:42 IST" name="required" finished-at="2022-03-26T22:25:42 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- required -->
+        <test-method signature="emiCalculator(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:25:42 IST" name="emiCalculator" data-provider="emiDetailsProvider" finished-at="2022-03-26T22:25:46 IST" duration-ms="3909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1,000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9,080]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10,080]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculator -->
+        <test-method is-config="true" signature="driverExit()[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:25:46 IST" name="driverExit" finished-at="2022-03-26T22:25:47 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverExit -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:runner.TC010_VerfyEmiCalculator@dd05255]" started-at="2022-03-26T22:25:47 IST" name="flush" finished-at="2022-03-26T22:25:47 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- runner.TC010_VerfyEmiCalculator -->
+    </test> <!-- Verify emi calculator -->
+  </suite> <!-- Suite -->
+</testng-results>

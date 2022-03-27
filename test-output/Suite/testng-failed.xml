@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verifying fan pages(failed)">
+    <parameter name="TestID" value="TC003_nobroker_fan_page_verification"/>
+    <classes>
+      <class name="runner.TC003_VerfiyFanPagesWorking">
+        <methods>
+          <include name="flush"/>
+          <include name="verifyFanPages"/>
+          <include name="extendReportSetup"/>
+          <include name="driverExit"/>
+          <include name="required"/>
+          <include name="driverSetUp"/>
+        </methods>
+      </class> <!-- runner.TC003_VerfiyFanPagesWorking -->
+    </classes>
+  </test> <!-- Verifying fan pages(failed) -->
+</suite> <!-- Failed suite [Suite] -->
