@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<test name="Login">
+		<parameter name="TestID" value="TC001_nobroker_login" />
+		<classes>
+			<class name="runner.TC001_Login" />
+		</classes>
+	</test>
+
+	<test name="Login with invalid data">
+		<parameter name="TestID" value="TC002_nobroker_login_with_Invalid_data" />
+		<classes>
+			<class name="runner.TC002_Login_with_Invalid_data" />
+		</classes>
+	</test>
+
+
+	<test name="Verifying fan pages">
+		<parameter name="TestID" value="TC003_nobroker_fan_page_verification" />
+		<classes>
+			<class name="runner.TC003_VerfiyFanPagesWorking" />
+		</classes>
+	</test>
+
+
+	<test name="Search commertial properties">
+		<parameter name="TestID" value="TC004_nobroker_verifying_search_commertial" />
+		<classes>
+			<class name="runner.TC004_SearchCommertialProperties" />
+		</classes>
+	</test>
+
+
+	<test name="Search Footer Pg hostels">
+		<parameter name="TestID" value="TC005_verifying_footer_contains_PG_at_selected_city" />
+		<classes>
+			<class name="runner.TC005_FooterPGHostelSearch" />
+		</classes>
+	</test>
+
+
+	<test name="Verify Login Details">
+		<parameter name="TestID" value="TC006_NOBROKER_Login_and_verifying_details" />
+		<classes>
+			<class name="runner.TC006_LoginAndVerifyDetails" />
+		</classes>
+	</test>
+
+
+	<test name="Verify Builder Details">
+		<parameter name="TestID" value="TC007_NOBROKER_Buildrer_City_Verifying" />
+		<classes>
+			<class name="runner.TC007_BuildersVerifyCity" />
+		</classes>
+	</test>
+
+
+	<test name="Android App download verification">
+		<parameter name="TestID" value="TC008_NOBROKER_androidAppDownload_verify" />
+		<classes>
+			<class name="runner.TC008_DownloadAndrodApp" />
+		</classes>
+	</test>
+
+	<test name="Search Rent Properties">
+		<parameter name="TestID" value="TC009_nobroker_verifying_search_rentDispaly number" />
+		<classes>
+			<class name="runner.TC009SearchRentProperties" />
+		</classes>
+	</test>
+
+	<test name="Verify emi calculator">
+		<parameter name="TestID" value="TC010_nobroker_verifying_emi_calculator" />
+		<classes>
+			<class name="runner.TC010_VerfyEmiCalculator" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
