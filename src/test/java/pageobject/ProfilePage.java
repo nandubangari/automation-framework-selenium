@@ -8,6 +8,7 @@ public class ProfilePage extends BaseClass {
 	public boolean verifyDeatils(String name,String email,String phoneNumber) {
 		boolean flag=true;
 		webDriver.clickElement(ProfilePageUi.Profile);
+		webDriver.waitUntilInVisibilityOfElement(ProfilePageUi.basicProfileOption);
 		webDriver.clickElement(ProfilePageUi.basicProfileOption);
 		String emailRecived=webDriver.getValue(ProfilePageUi.emailFeild);
 		String phoneNumberRecived=webDriver.getValue(ProfilePageUi.phoneFeild);
