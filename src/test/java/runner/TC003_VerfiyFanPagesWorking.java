@@ -69,6 +69,7 @@ public class TC003_VerfiyFanPagesWorking extends BaseClass{
 			flag=false;
 		}
 		webDriver.switchTab(0);
+		/*
 		if(home.checkInsta()) {
 			webDriver.waitUntilCompletelyLoad();
 			exReport.enterPassLogWithSnap("Opened Insta");
@@ -81,7 +82,7 @@ public class TC003_VerfiyFanPagesWorking extends BaseClass{
 			log.info("Unable to open Insta");
 			flag=false;
 		}
-		
+		*/
 		if(flag==false)
 			Assert.assertTrue(flag);
 	}
