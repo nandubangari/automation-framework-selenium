@@ -31,7 +31,9 @@ public class HomePage extends BaseClass {
 			AllLogger.infoLog("Entering password : "+password);
 			webDriver.sendText(HomePageUi.passwordFeild, password);
 			webDriver.clearText(HomePageUi.passwordFeild);
+			Thread.sleep(100);
 			webDriver.sendText(HomePageUi.passwordFeild, password);
+			
 			webDriver.clickElement(HomePageUi.LoginButton);
 			AllLogger.infoLog("Clicking on login");
 			webDriver.waitUntilVisibilityOfElement(HomePageUi.loggiedInUser);
