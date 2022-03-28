@@ -37,7 +37,7 @@ public class TC006_LoginAndVerifyDetails extends BaseClass {
 		else {
 			exReport.enterFailLogWithSnap("Deatils doesnt Matched");
 			log.info("Login and verify Details  FAILED");
-			Assert.assertTrue(result);
+			
 		}
 	}
 
