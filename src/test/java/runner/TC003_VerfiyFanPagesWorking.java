@@ -43,6 +43,7 @@ public class TC003_VerfiyFanPagesWorking extends BaseClass{
 			flag=false;
 		}
 		webDriver.switchTab(0);
+		/*
 		if(home.checkLinkdin()) {
 			webDriver.waitUntilCompletelyLoad();
 			exReport.enterPassLogWithSnap("Opened Linkdin");
@@ -56,6 +57,7 @@ public class TC003_VerfiyFanPagesWorking extends BaseClass{
 			flag=false;
 		}
 		webDriver.switchTab(0);
+		*/	
 		if(home.checkYouTube()) {
 			webDriver.waitUntilCompletelyLoad();
 			exReport.enterPassLogWithSnap("Opened YouTube");
