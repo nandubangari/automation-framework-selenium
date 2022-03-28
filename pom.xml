@@ -52,15 +52,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.22</version>
 		  </dependency>
-
-
 	</dependencies>
 	<properties>
-		<java.version>15</java.version>
+		<java.version>17</java.version>
 		<maven.compiler.source>15</maven.compiler.source>
 		<maven.compiler.target>15</maven.compiler.target>
 	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
